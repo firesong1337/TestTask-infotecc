@@ -15,7 +15,8 @@ const [selectedRow, setSelectedRow] = useState(null)
 // Обработчик клика по строке таблицы.  
 const handleRowClick = (index) => {
     setSelectedRow(index)
-    openModal(tablebodyData[index - 1])
+    //openModal(tablebodyData[index - 1])
+    openModal(tablebodyData.find(user => user.id === index));
 }
   return (
     <tbody>
