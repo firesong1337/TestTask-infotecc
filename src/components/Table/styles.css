@@ -1,0 +1,26 @@
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    resize: horizontal;
+    overflow: hidden;
+    user-select: none;   
+    min-width: 50px;
+}
+
+.head-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.data-name {
+    font-size: 18px;
+}
+.selected-row {
+    background-color: #414852; /* Измените цвет на тот, который вам подходит */
+    color: white; /* Измените цвет текста на тот, который вам подходит */
+}

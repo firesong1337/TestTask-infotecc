@@ -1,0 +1,12 @@
+.search-ctn {
+    width: 300px;
+    display: flex;
+    gap: 8px;
+    padding: 12px 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search-desc {
+    font-size: 20px;
+    font-weight: 700;
+}
