@@ -1,8 +1,8 @@
-import { DummyData } from "./components/DummyData";
+import { MasterComponent } from "./components/MasterComponent";
 function App() {
   return (
     <div className="App">
-      <DummyData/>
+      <MasterComponent/>
     </div>
   );
 }

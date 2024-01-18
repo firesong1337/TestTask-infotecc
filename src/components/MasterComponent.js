@@ -7,7 +7,7 @@ import {ErrorDisplay} from "./ErrorHandling/ErrorDisplay"
 import { TableBody } from "./Table/TableBody";
 import {UserModal} from "./Modal/UserModal"
 
-export const DummyData = () => {
+export const MasterComponent = () => {
     const [userData, setUserData] = useState([])
     const [sortConfig, setSortConfig] = useState({ key: null, direction: null })
     const [error, setError] = useState(null)
